@@ -1,0 +1,49 @@
+.content {
+  background-size: cover;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.name {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 14rem;
+  color: rgb(202, 6, 49);
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: black;
+}
+.modal {
+  position: fixed;
+  width: 60%;
+  height: 60%;
+  background-color: rgb(241, 12, 12);
+  left: 20%;
+  top: 20%;
+}
+
+.ings,
+.cautions {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: rgb(223, 41, 110);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .name {
+    margin-top: 25rem;
+    font-size: 2rem;
+  }
+}

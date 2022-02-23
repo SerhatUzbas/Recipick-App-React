@@ -1,0 +1,133 @@
+.containerr {
+  grid-column: 1/-1;
+  display: flex;
+  position: relative;
+  grid-row: 1/2;
+}
+.logo {
+  transform: scale(4);
+  position: absolute;
+  left: 4rem;
+  top: 3rem;
+  color: rgb(221, 10, 73);
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  height: 3rem;
+  width: 20rem;
+  position: absolute;
+  top: 4rem;
+  left: 55rem;
+}
+
+.menu {
+  display: none;
+  text-decoration: none;
+  color: wheat;
+  font-size: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+@media only screen and (max-width: 2000px) {
+  .nav {
+    left: 86rem;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  .nav {
+    left: 76rem;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .nav {
+    left: 72rem;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .nav {
+    left: 62rem;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .nav {
+    left: 60rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .nav {
+    left: 55rem;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .nav {
+    left: 50rem;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .nav {
+    left: 46rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .nav {
+    left: 40rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .nav {
+    left: 32rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .nav {
+    left: 26rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    width: 100%;
+    top: 9rem;
+    left: 0;
+  }
+
+  .containerr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+  }
+
+  .navItem {
+    display: none;
+    width: 100%;
+
+    background-color: black;
+    float: left;
+  }
+  .menu {
+    display: block;
+
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    transform: scale(2);
+  }
+
+  .containerr:hover .navItem {
+    display: flex;
+  }
+}
+.navItem {
+  text-decoration: none;
+  color: wheat;
+  font-size: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.navItem:hover {
+  text-decoration: underline;
+  color: rgb(100, 32, 32);
+}

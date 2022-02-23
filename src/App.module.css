@@ -1,0 +1,52 @@
+.containers {
+  display: grid;
+  grid-template-rows: 7rem 2rem 20rem 40rem 10rem 5rem 1rem;
+  grid-template-columns:
+    minmax(8rem, 1fr) [center-start] repeat(8, minmax(min-content, 14rem))
+    [center-end] minmax(8rem, 1fr);
+  background-color: rebeccapurple;
+  grid-row-gap: 7rem;
+
+  background-image: linear-gradient(
+      rgba(208, 255, 204, 0.6),
+      rgba(197, 197, 191, 0.6)
+    ),
+    url("./img/pexels-mister-mister-3434523.jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1051px) {
+  .containers {
+    grid-row-gap: 7rem;
+    grid-template-rows: 7rem 2rem 50rem 57rem 10rem 5rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .containers {
+    grid-row-gap: 7rem;
+    grid-template-rows: 7rem 2rem 50rem 70rem 10rem 20rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .containers {
+    grid-template-rows: 7rem 2rem 90rem 70rem 10rem 20rem 1rem;
+
+    grid-row-gap: 7rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .containers {
+    grid-row-gap: 7rem;
+    grid-template-rows: 7rem 2rem 120rem 90rem 17rem 20rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .containers {
+    grid-row-gap: 7rem;
+    grid-template-rows: 7rem 2rem 130rem 110rem 20rem 20rem 1rem;
+  }
+}

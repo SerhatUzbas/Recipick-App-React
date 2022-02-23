@@ -1,0 +1,41 @@
+.list {
+  list-style: none;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-color: rgba(245, 222, 179, 0.726);
+  margin-top: -0.02rem;
+}
+
+.listitem {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: -2.5rem;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  color: rgb(48, 61, 104);
+}
+.listitem:hover {
+  background-color: rgb(230, 94, 135);
+}
+
+.listTitle {
+  font-size: 3rem;
+  text-align: center;
+  margin-left: -2.5rem;
+  color: rgb(223, 41, 110);
+  text-decoration: underline;
+}
+.opt {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .opt {
+    display: block;
+    grid-row: 2/3;
+  }
+  .list {
+    display: none;
+  }
+}
