@@ -14,7 +14,7 @@ I don't want to be rude, but in my opinion, edamam API has some flows:
 4) Meal names are not explanatory and are not reflecting the original meal sometimes.
 5) Very few meal types.
 
-I want to make search function depends every key stroke, but 10 calls/min limit restricted me to do that.
+I wanted to make search function depends every key stroke, but 10 calls/min limit restricted me to do that.
 
 On the other hand, 10000 calls/month ables you free to create demo project with edamam.
 
