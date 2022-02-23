@@ -18,6 +18,12 @@ I wanted to make search function depends every key stroke, but 10 calls/min limi
 
 On the other hand, 10000 calls/month ables you free to create demo project with edamam.
 
+### Others
+
+1)Formik is used as a form validator.
+2)I prefered props drilling instead of Context API.
+3)I used refs first time in a project.
+
 You can check the app via :http://serhat-recipick.surge.sh/
 
 
